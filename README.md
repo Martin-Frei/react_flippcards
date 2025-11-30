@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🎮 React Memory Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A classic memory card game built with React and styled with Tailwind CSS. Test your memory by matching pairs of cards!
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+[Play the game here](https://martin-frei.github.io/react_flippcards)
 
-### `npm start`
+## 📸 Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Start Page
+![Start Page](screenshots/startPage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### You Won!
+![You Won](screenshots/youWon.png)
 
-### `npm test`
+## 🎯 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🃏 8 cards (4 pairs) to match
+- 📊 Move counter to track your performance
+- 🔄 Restart button to play again
+- ✨ Smooth flip animations
+- 🎨 Clean, modern UI with Tailwind CSS
+- 📱 Responsive design
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** - UI library
+- **Tailwind CSS** - Styling
+- **GitHub Pages** - Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🏃‍♂️ Run Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
+```bash
+git clone https://github.com/Martin-Frei/react_flippcards.git
+cd react_flippcards
+```
 
-### `npm run eject`
+2. Install dependencies
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start the development server
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Build for Production
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Deploy to GitHub Pages
+```bash
+npm run deploy
+```
 
-## Learn More
+## 📝 How to Play
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Click on any card to flip it
+2. Click on a second card to find its match
+3. If the cards match, they stay flipped
+4. If they don't match, they flip back after 1 second
+5. Match all pairs to win!
+6. Use the Restart button to play again
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👨‍💻 Author
 
-### Code Splitting
+**Martin Frei**
+- GitHub: [@Martin-Frei](https://github.com/Martin-Frei)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📄 License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the MIT License.
